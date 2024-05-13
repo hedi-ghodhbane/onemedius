@@ -1,0 +1,82 @@
+{
+  "top_5_highlights": [
+    {
+      "id": "0e38e67e-f015-45d2-9fa9-b94d7684d282",
+      "title": "New Onboarding Request Features",
+      "news": "Jira resolved issues reveal the addition of new features to improve the onboarding request process. This includes a command to process a staged Supplier Import and the ability to delete attachments once an onboarding request is complete. [Source: Jira]"
+    },
+    {
+      "id": "bdff65df-d867-43b0-92ac-d1b2e4dbd0c7",
+      "title": "Payment Details Updates",
+      "news": "Improvements in payment details management have been reported in the latest Jira resolved issues. New features include a tab for Supplier with empty state and consolidation of payments to exclude items with structured reference numbers. [Source: Jira]"
+    },
+    {
+      "id": "9e22c8a3-d981-4c97-aa8f-ec84844d0ad8",
+      "title": "Supplier Import Enhancements",
+      "news": "Jira's resolved issues highlight enhancements in the Supplier Import process. These include the use of existing questionnaire validation for custom fields and a command to grab X supplier imports for synchronous processing. [Source: Jira]"
+    },
+    {
+      "id": "e4659dc3-b9bf-464d-aab6-2e986c15decc",
+      "title": "MediusGo Success",
+      "news": "A post on Viva Engage highlights the success of MediusGo, with an impressive customer migration to Azure, reduced invoice processing times, and a new release of functionalities. [Source: Viva Engage]"
+    },
+    {
+      "id": "51a9fd50-8716-4a94-b9d5-43aeae27e747",
+      "title": "Hackathon Events",
+      "news": "Teams across Medius' global offices participate in a hackathon, sharing updates and photos on Viva Engage. The event sparks innovation and collaboration among the company's R&D dynamos. [Source: Viva Engage]"
+    }
+  ],
+  "categories_and_highlights": {
+    "Product Updates": [
+      {
+        "id": "46f7b5c4-af42-4669-8717-bf2df41c0d13",
+        "title": "Onboarding Request Features",
+        "news": "New features have been added to improve the onboarding request process, including a command to process a staged Supplier Import and the ability to delete attachments once a request is complete. [Source: Jira]"
+      },
+      {
+        "id": "f35aefb1-4460-4e11-bd9a-eb8004165e39",
+        "title": "Payment Details Management",
+        "news": "Improvements have been implemented in payment details management, including a new tab for Supplier with empty state and consolidation of payments to exclude items with structured reference numbers. [Source: Jira]"
+      },
+      {
+        "id": "a2de6f69-fcb8-47cf-a174-14a642660d1e",
+        "title": "Supplier Import Enhancements",
+        "news": "The Supplier Import process has been enhanced with the use of existing questionnaire validation for custom fields and a command to grab X supplier imports for synchronous processing. [Source: Jira]"
+      }
+    ],
+    "Company News": [
+      {
+        "id": "9fb7cc3d-0d7f-4da3-b1f5-c85c8a72e593",
+        "title": "MediusGo Success",
+        "news": "MediusGo celebrates a significant milestone, with an impressive customer migration to Azure, reduced invoice processing times, and a new release of functionalities. [Source: Viva Engage]"
+      },
+      {
+        "id": "38b0515d-2f21-4c25-8b2e-11f858a208e2",
+        "title": "Hackathon Events",
+        "news": "Teams across Medius' global offices participate in a hackathon, sharing updates and photos on Viva Engage. The event sparks innovation and collaboration among the company's R&D dynamos. [Source: Viva Engage]"
+      },
+      {
+        "id": "f35c8c5a-99c4-48bb-950f-3ee4c24ee11d",
+        "title": "Employee Anniversaries",
+        "news": "Several Medius employees celebrate their work anniversaries this week, demonstrating the company's commitment to its staff and their professional growth. [Source: Viva Engage]"
+      }
+    ],
+    "Internal Events": [
+      {
+        "id": "1e99908b-d184-44b4-ba88-69a1b5f31825",
+        "title": "HackathonHappenings",
+        "news": "Medius' global offices participate in a hackathon, with teams sharing their progress and experiences on Viva Engage. The event promotes innovation and fosters a sense of community within the company. [Source: Viva Engage]"
+      },
+      {
+        "id": "b44315c5-b4d5-4d0e-8e12-3b6718a99e9b",
+        "title": "Internal Release Notes",
+        "news": "Medius releases internal notes detailing new features and bug fixes in its APA and Procurement software. The company is committed to continuous improvement and keeping its staff updated on product developments. [Source: Confluence]"
+      },
+      {
+        "id": "84b2ef47-b165-4599-a5fc-6a340a0df174",
+        "title": "PS Leadership Event",
+        "news": "The Medius UK team hosts a PS leadership event in Manchester, providing an opportunity for team members to connect and share ideas. The event highlights the company's commitment to fostering a collaborative culture. [Source: Viva Engage]"
+      }
+    ]
+  }
+}

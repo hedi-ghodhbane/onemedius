@@ -16,7 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <header className="bg-gray-900 flex items-center justify-center py-4">
+          <h1 className="text-4xl font-bold text-white">One medius</h1>
+        </header>
+        {children}
+      </body>
     </html>
   );
 }
