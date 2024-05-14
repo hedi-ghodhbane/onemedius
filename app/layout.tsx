@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Icon from "./components/Logo";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,13 +16,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <header className="bg-gray-900 flex items-center justify-center py-4">
-          <h1 className="text-4xl font-bold text-white">One medius</h1>
-        </header>
-        {children}
-      </body>
+    <html lang="en" className="overflow-hidden">
+      <Icon />
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }

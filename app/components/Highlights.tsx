@@ -10,7 +10,7 @@ export default async function Highlights() {
           <Link
             key={title}
             href={`/${id}`}
-            className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg"
+            className="bg-white shadow-lg dark:bg-gray-800 p-6 rounded-lg"
           >
             <h3 className="text-lg font-bold mb-2">{title}</h3>
             <p className="text-gray-600 dark:text-gray-400 text-sm">{news}</p>
