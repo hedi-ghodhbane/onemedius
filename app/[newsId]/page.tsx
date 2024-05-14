@@ -1,6 +1,8 @@
 import Link from "next/link";
+import Image from "next/image";
 import json from "../json/dummy-json.json";
 import { ChevronLeft } from "lucide-react";
+import img from "../team.jpg";
 export default function NewsDetails({
   params,
 }: {
@@ -36,6 +38,16 @@ export default function NewsDetails({
       <div className="flex flex-col container  gap-4 my-8  bg-white shadow-lg dark:bg-gray-800 p-8 rounded-lg">
         <h1 className="text-2xl font-semibold">{news.title}</h1>
         <p>{news.news}</p>
+        {"withImage" in news && news.withImage == true && (
+          <Image
+            className="self-center py-2"
+            src={img}
+            alt="team"
+            quality={70}
+            width={800}
+            height={800}
+          />
+        )}
         {"article" in news && news.article && (
           <>
             <h2 className="text-xl font-semibold">Article:</h2>

@@ -16,9 +16,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="overflow-hidden">
-      <Icon />
-      <body className={inter.className}>{children}</body>
+    <html lang="en">
+      <body className={`${inter.className}`}>
+        <Icon />
+        {children}
+      </body>
     </html>
   );
 }

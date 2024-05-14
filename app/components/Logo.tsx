@@ -3,10 +3,8 @@ import React from "react";
 function Icon() {
   return (
     <svg
-      className="animate-ping absolute -right-1/4 -top-1/4 -z-10 opacity-10"
+      className="fixed w-screen md:w-[60%] lg:w-1/2 top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 -z-10 opacity-20"
       xmlns="http://www.w3.org/2000/svg"
-      width="1700"
-      height="1700"
       fill="none"
       viewBox="0 0 335 335"
     >
